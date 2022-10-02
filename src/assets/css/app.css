@@ -1,0 +1,90 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background: #e2cfb8;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+main,
+hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: '微软雅黑';
+  background: #f5f7f9;
+  color: #333;
+  height: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+a,
+u {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input {
+  outline: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+textarea {
+  resize: none;
+}
