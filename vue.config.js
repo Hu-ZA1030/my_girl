@@ -2,8 +2,8 @@
  * @Author: Hu-ZA1030 2250552567@qq.com
  * @Date: 2022-09-26 23:32:56
  * @LastEditors: Hu-ZA1030 2250552567@qq.com
- * @LastEditTime: 2022-10-02 13:17:54
- * @FilePath: \my-girl\vue.config.js
+ * @LastEditTime: 2022-10-02 18:09:48
+ * @FilePath: \my_girl\vue.config.js
  * @Description: 
  * 
  * Copyright (c) 2022 by Hu-ZA1030 2250552567@qq.com, All Rights Reserved. 
@@ -18,12 +18,12 @@ module.exports = {
   publicPath: (() => {
     switch (process.env.NODE_ENV) {
       case 'production':
-        return 'https://cdn.m.tencent.com/hr/hrssc/card/'
+        return '/'
       default:
         return './' // 相对路径
     }
   })(),
-  outputDir: 'dist/card',//build输出地址
+  outputDir: 'dist',//build输出地址
   assetsDir: './assets/',
   filenameHashing: false,// 文件名哈希
   lintOnSave: false,//启用eslint检查,这个鬼东西检查太严格了,关掉
@@ -83,13 +83,4 @@ module.exports = {
       }
     }
   },
-  // 在生产环境下为 Babel 和 TypeScript 使用 `thread-loader`
-  // 在多核机器下会默认开启。
-  parallel: require('os').cpus().length > 1,
-  // PWA 插件的选项。
-  // 查阅 https://github.com/vuejs/vue-docs-zh-cn/blob/master/vue-cli-plugin-pwa/README.md
-  pwa: {},
-  // 三方插件的选项
-  pluginOptions: {
-  }
 };

@@ -2,8 +2,8 @@
  * @Author: Hu-ZA1030 2250552567@qq.com
  * @Date: 2022-09-28 23:19:25
  * @LastEditors: Hu-ZA1030 2250552567@qq.com
- * @LastEditTime: 2022-10-02 14:54:55
- * @FilePath: \my-girl\src\views\eleven\index.vue
+ * @LastEditTime: 2022-10-04 16:35:31
+ * @FilePath: \my_girl\src\views\eleven\index.vue
  * @Description: 
  * 
  * Copyright (c) 2022 by Hu-ZA1030 2250552567@qq.com, All Rights Reserved. 
@@ -69,7 +69,7 @@
       to="/ten"
       >LAST</van-button
     >
-    <van-button
+    <!-- <van-button
       class="goNext"
       style="
         position: absolute;
@@ -84,7 +84,7 @@
       type="primary"
       to="/twelve"
       >彩蛋</van-button
-    >
+    > -->
   </div>
 </template>
 <script>

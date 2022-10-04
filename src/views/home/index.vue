@@ -2,8 +2,8 @@
  * @Author: Hu-ZA1030 2250552567@qq.com
  * @Date: 2022-09-26 23:32:56
  * @LastEditors: Hu-ZA1030 2250552567@qq.com
- * @LastEditTime: 2022-10-02 00:39:57
- * @FilePath: \my-girl\src\views\home\index.vue
+ * @LastEditTime: 2022-10-04 16:54:31
+ * @FilePath: \my_girl\src\views\home\index.vue
  * @Description: 
  * 
  * Copyright (c) 2022 by Hu-ZA1030 2250552567@qq.com, All Rights Reserved. 
@@ -127,7 +127,7 @@ export default {
   },
   data() {
     return {
-      music: require('../../assets/video/huang.mp3'),
+      music: require('../../assets/video/birthday.mp3'),
       autoplay: true // 自动播放
     }
   },
